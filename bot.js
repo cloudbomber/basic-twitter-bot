@@ -26,7 +26,7 @@ var T = new Twit(config);
 //   }
 // }
 tweetIt();
-setInterval(tweetIt, 1000*60) // run the tweetIt function every 60 secs
+setInterval(tweetIt, 1000*50) // run the tweetIt function every 60 secs
 
 
 
