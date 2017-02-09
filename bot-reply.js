@@ -9,7 +9,7 @@ var T = new Twit(config);
 //Setting up a user stream
 var stream = T.stream('user');
 
-//Anytime someone follows me run followed function
+//Anytime someone tweets account name run tweeted function
 stream.on('tweet', tweeted);
 
 function tweeted(eventMsg){
@@ -17,7 +17,8 @@ function tweeted(eventMsg){
 //  var json = JSON.stringify(eventMsg, null, 2);
 //  fs.writeFile("tweet.json", json);
 
-var replyto = eventMsg.in._reply_to_screen_name;
+//store pieces of json data in variables
+var replyto = eventMsg.in._reply_to_screen_name; 
 var text = eventMsg.text;
 var from = eventMsg.user.screen_name;
 
