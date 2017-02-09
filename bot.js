@@ -25,6 +25,8 @@ var T = new Twit(config);
 //     console.log(tweets[i].text + '\n');
 //   }
 // }
+
+
 tweetIt();
 setInterval(tweetIt, 1000*50) // run the tweetIt function every 60 secs
 
