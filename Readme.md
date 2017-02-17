@@ -3,12 +3,12 @@ basic Twitter bot app
 ------------------------------------------
 This is a basic Twitter bot app
 which **auto replies** with a message once someone has followed your profile.
+
+Setup the config file
 ------------------------------------------
 
-
-//create a file named "config.js" and insert the code below
-//with the respecific keys and token. 
-// To give those keys, please follow these steps:
+* create a file named "config.js".
+* To get the keys and tokens, please follow these steps:
 
 
 * go to --> https://apps.twitter.com/
