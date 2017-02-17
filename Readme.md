@@ -7,7 +7,8 @@ which **auto replies** with a message once someone has followed your profile.
 Setup the config file
 ------------------------------------------
 
-``` npm install
+```javascript 
+npm install
 ```
 * create a file named "config.js".
 * To get the keys and tokens, please follow these steps:
