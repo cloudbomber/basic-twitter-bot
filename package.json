@@ -2,7 +2,7 @@
   "name": "twitter bot basic",
   "version": "1.0.0",
   "description": "twitter auto reply bot",
-  "main": "bot.js",
+  "main": "bot-02.js",
   "scripts": {
     
     "test": "echo \"Error: no test specified\" && exit 1"
