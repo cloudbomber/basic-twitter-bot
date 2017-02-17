@@ -1,7 +1,7 @@
 {
-  "name": "npm_demo",
+  "name": "twitter bot basic",
   "version": "1.0.0",
-  "description": "npm test",
+  "description": "twitter auto reply bot",
   "main": "bot.js",
   "scripts": {
     
@@ -13,7 +13,7 @@
     "js",
     "kasi"
   ],
-  "author": "kasi E",
+  "author": "K. E",
   "license": "ISC",
   "dependencies": {
     "twit": "^2.2.5"
